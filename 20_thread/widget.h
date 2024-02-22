@@ -27,8 +27,10 @@ private slots:
     void slot_pbtStop();
     void slot_pbtIsRunning();
 
-    void slot_threadMsg(const QString &);  //시그널받아서처리하는함수
+    void slot_threadMsg(const QString &);  //시그널받아서처리하는 slot 함수
 
+    void slot_started();
+    void slot_finished();
 };
 
 #endif // WIDGET_H

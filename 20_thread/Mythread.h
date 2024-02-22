@@ -25,6 +25,7 @@ signals:
     void sig_threadMsg(const QString & );
     //? &만넣는다고??
 
+
 protected:
     virtual void run();
 

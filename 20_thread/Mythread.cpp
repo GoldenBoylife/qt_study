@@ -24,7 +24,7 @@ void MyThread::run()
     {
         m_mutex.lock();
 
-        QString str = QString("[Thread 번호: %1] MyThread %2 ").arg(m_number, i);
+        QString str = QString("[Thread 번호: %1] MyThread %2 ").arg(m_number).arg(i);
         i++;
 
         emit sig_threadMsg(str);

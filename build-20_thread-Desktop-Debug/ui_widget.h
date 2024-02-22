@@ -29,7 +29,7 @@ public:
     QHBoxLayout *horizontalLayout;
     QPushButton *pbtStart;
     QPushButton *pbtStop;
-    QPushButton *pbRuuning;
+    QPushButton *pbtIsRunning;
     QTextEdit *textEdit;
 
     void setupUi(QWidget *Widget)
@@ -54,10 +54,10 @@ public:
 
         horizontalLayout->addWidget(pbtStop);
 
-        pbRuuning = new QPushButton(Widget);
-        pbRuuning->setObjectName(QStringLiteral("pbRuuning"));
+        pbtIsRunning = new QPushButton(Widget);
+        pbtIsRunning->setObjectName(QStringLiteral("pbtIsRunning"));
 
-        horizontalLayout->addWidget(pbRuuning);
+        horizontalLayout->addWidget(pbtIsRunning);
 
 
         verticalLayout->addLayout(horizontalLayout);
@@ -78,7 +78,7 @@ public:
         Widget->setWindowTitle(QApplication::translate("Widget", "Widget", Q_NULLPTR));
         pbtStart->setText(QApplication::translate("Widget", "thread\354\213\234\354\236\221", Q_NULLPTR));
         pbtStop->setText(QApplication::translate("Widget", "thread\354\244\221\354\247\200", Q_NULLPTR));
-        pbRuuning->setText(QApplication::translate("Widget", "\353\217\231\354\236\221\354\244\221\354\235\270\354\247\200\355\231\225\354\235\270", Q_NULLPTR));
+        pbtIsRunning->setText(QApplication::translate("Widget", "\353\217\231\354\236\221\354\244\221\354\235\270\354\247\200\355\231\225\354\235\270", Q_NULLPTR));
     } // retranslateUi
 
 };

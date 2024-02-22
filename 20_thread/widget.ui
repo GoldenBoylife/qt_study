@@ -31,7 +31,7 @@
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="pbRuuning">
+      <widget class="QPushButton" name="pbtIsRunning">
        <property name="text">
         <string>동작중인지확인</string>
        </property>
