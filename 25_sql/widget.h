@@ -2,7 +2,9 @@
 #define WIDGET_H
 
 #include <QWidget>
-#include <ImageButton.h>
+#include <QtSql>
+#include <QDebug>
+
 namespace Ui {
 class Widget;
 }
@@ -17,10 +19,10 @@ public:
 
 private:
     Ui::Widget *ui;
+    QSqlDatabase db;
 
 private slots:
-    void slot_hovering();
-    void slot_clicked();
+    void slot_pbtQuery();
 };
 
 #endif // WIDGET_H

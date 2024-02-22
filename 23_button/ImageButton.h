@@ -17,12 +17,13 @@ private :
 
 
 signals:
-    void hoversing();
+    void hovering();
     void clicked();
 
 protected:
     virtual void paintEvent(QPaintEvent* event);
-    virtual void enterEvent(QEnterEvent* event);
+    virtual void enterEvent(QEvent* event);
+    // replace QEnterEvent with QEvent,
     virtual void leaveEvent(QEvent* event);
     virtual void mousePressEvent(QMouseEvent *event);
     virtual void mouseDoubleClieckEvent(QMouseEvent *event);
