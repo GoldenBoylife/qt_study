@@ -5,8 +5,16 @@
 #define BEHAVIOUR_LEAVE      2
 #define BEHAVIOUR_PRESS      3
 #define BEHAVIOUR_DISABLE    4
+
 ImageButton::ImageButton(QObject *parent) :
     QObject(parent), m_disabled(false)
 {
-    m_behaviour = BEHAVIOUR_NORMAL
+    m_behaviour = BEHAVIOUR_NORMAL;
+    //기본은NORMAL상태
+
+    /*이미지가져오기*/
+    QImage image(":/images/normal.png");
+    QImage
+
+
 }
