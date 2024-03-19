@@ -1,0 +1,10 @@
+# ninja log v5
+0	7	0	CMakeFiles/test_pcdViewer2_autogen	856a888dd7ffcf2a
+0	7	0	test_pcdViewer2_autogen/mocs_compilation.cpp	856a888dd7ffcf2a
+7	12	1709775043	test_pcdViewer2_autogen/EWIEGA46WW/qrc_qml.cpp	5d77981875e16c25
+12	27	1709775043	CMakeFiles/test_pcdViewer2.dir/test_pcdViewer2_autogen/mocs_compilation.cpp.o	fdbe63087332cbba
+13	31	1709775043	CMakeFiles/test_pcdViewer2.dir/test_pcdViewer2_autogen/EWIEGA46WW/qrc_qml.cpp.o	119a9caa4abf89e7
+13	356	1709775044	CMakeFiles/test_pcdViewer2.dir/main.cpp.o	af70b592428f3126
+356	492	1709775044	test_pcdViewer2	173c73853d175c6e
+0	7	0	CMakeFiles/test_pcdViewer2_autogen	856a888dd7ffcf2a
+0	7	0	test_pcdViewer2_autogen/mocs_compilation.cpp	856a888dd7ffcf2a

@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/test_cmake3.dir/test_cmake3_autogen/mocs_compilation.cpp.o CMakeFiles/test_cmake3.dir/Sources/main.cpp.o CMakeFiles/test_cmake3.dir/Sources/widget.cpp.o  -o test_cmake3  /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.9.5 

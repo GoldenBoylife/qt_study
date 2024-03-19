@@ -1,0 +1,4 @@
+/home/gb/workspaces/qt_ws/qt_study/build-pclViewer-Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/gb/workspaces/qt_ws/qt_study/build-pclViewer-Desktop-Debug/CMakeFiles/pclViewer.dir
+/home/gb/workspaces/qt_ws/qt_study/build-pclViewer-Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/gb/workspaces/qt_ws/qt_study/build-pclViewer-Desktop-Debug/CMakeFiles/pclViewer_autogen.dir

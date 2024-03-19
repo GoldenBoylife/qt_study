@@ -1,0 +1,4 @@
+/home/gb/workspaces/qt_ws/qt_study/test_cmake3/build/CMakeFiles/rebuild_cache.dir
+/home/gb/workspaces/qt_ws/qt_study/test_cmake3/build/CMakeFiles/test_cmake3.dir
+/home/gb/workspaces/qt_ws/qt_study/test_cmake3/build/CMakeFiles/edit_cache.dir
+/home/gb/workspaces/qt_ws/qt_study/test_cmake3/build/CMakeFiles/test_cmake3_autogen.dir
